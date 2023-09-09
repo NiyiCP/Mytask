@@ -7,7 +7,7 @@ body{
     justify-content:center;
     align-items:center;
     height: 100vh;
-    text-align:center;
+    text-align:left;
     color:#fff;
 
     
@@ -32,15 +32,12 @@ a{
    text-decoration:none;
    color:#fff;
 }
-p{
-    margin-top:10px;
-    font-size:12px;
-}
-h2{
+li{
     margin-top:20px;
-    text-transform:
-}
-
-h2,h1{
     font-size:16px;
+    list-style:none;
+    
+}
+aside{
+    text-align:left;
 }

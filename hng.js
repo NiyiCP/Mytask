@@ -2,8 +2,13 @@
 const day=document.querySelector('[data-testid="currentDayOfTheWeek"]')
 const timeUTC=document.querySelector('[data-testid="currentUTCTime"]')
 const today=new Date();
-const timeMilliseconds=today.getTime()
-
+const getTimes=function(today) {
+    const timeMilliseconds=today.getTime()
+    timeUTC.textContent=timeMilliseconds
+}
+setInterval(() => {
+    getTimes(today)
+}, 0.1);
 const weekDay=today.toLocaleString('en',{weekday:'long'})
 const option={
     weekday:'long',
