@@ -1,6 +1,6 @@
 
-const day=document.getElementById('currentDay');
-const timeUTC=document.getElementById('currentTime')
+const day=document.querySelector('[data-testid="currentDayOfTheWeek"]')
+const timeUTC=document.querySelector('[data-testid="currentUTCTime"]')
 const today=new Date();
 const timeMilliseconds=today.getTime()
 

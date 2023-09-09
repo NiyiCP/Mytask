@@ -7,23 +7,26 @@
 </head>
 <body>
     <link rel="stylesheet" href="styles.css">
-
+<header>
         <h1>HNG INTERN</h1>
     <blockquote>
         <h2>My Slack Name</h2>
-        <p data-testid="slackDisplayName">Niyi</p>
+        <p data-testid="slackUserName">Niyi</p>
     </blockquote>
     <blockquote>
         <h2> Slack Display Picture</h2>
-       <img data-testid="slackDisplayImage" src="slack.jpg" alt="slack-image" height="200px" width="200px"/>
+       <img  
+       src="slack.jpg" alt="slack-image" 
+       height="200px" width="200px"
+       data-testid="slackDisplayImage"/>
     </blockquote>
     <blockquote>
         <h2>Current Day of the Week</h2>
-        <p id='currentDay' data-testid="currentDayOfTheWeek">Thursday</p>
+        <p data-testid="currentDayOfTheWeek">Thursday</p>
     </blockquote>
     <blockquote>
         <h2>Current UTC Time</h2>
-        <p id='currentTime' data-testid="currentUTCTime">00000</p>
+        <p data-testid="currentUTCTime">00000</p>
     </blockquote>
     <blockquote>
         <h2>Track</h2>
@@ -31,9 +34,10 @@
     </blockquote>
     <blockquote>
         <h2>GitHub URL</h2>
-        <p><a href="https://github.com/NiyiCP/Mytask">Niyi22CP</a></p>
+        <p 
+        data-testid="githubURL"><a href="https://github.com/NiyiCP/Mytask">GitHub Respository</a></p>
     </blockquote>
-   
+ </header>   
     <script src="hng.js"></script>
 </body>
 </html>
